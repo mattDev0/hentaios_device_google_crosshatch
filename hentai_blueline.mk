@@ -47,6 +47,9 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/
 # b/189477034: Bypass build time check on uses_libs until vendor fixes all their apps
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
+# quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := Google
 PRODUCT_NAME := hentai_blueline
